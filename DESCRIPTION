@@ -3,7 +3,7 @@ Type: Package
 Title: Projet 1 - Algorithme Dijkstra et Seam Carving
 Version: 0.1.0
 Author: Chaima Boughanmi, Faheemah Padavia, Pascale Zouein
-Description: Ce package contient le travail réalisé pour le projet 1, c'est-à-dire la création de graphe sur un carré de côté un, puis la recherche du plus court chemin par les algorithmes de Bellman Ford et de Dijkstra, et une application sur le redimentionnement d'image par la suppression de pixels de plus faible énergie.
+Description: Ce package contient le travail réalisé pour le projet 1, c'est-à-dire la création de graphe sur un carré de côté un, puis la recherche du plus court chemin par les algorithmes de Bellman Ford et de Dijkstra, et une application sur le redimensionnement d'image par la suppression de pixels de plus faible énergie.
     Use four spaces when indenting paragraphs within the Description.
 License: GPL-3
 Encoding: UTF-8
