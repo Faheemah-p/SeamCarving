@@ -1,7 +1,7 @@
 \name{graph_square}
 \alias{graph_square}
-\title{Construction d'un graph sur un carré de côté 1}
-\description{graph_square est une fonction qui renvoie les coordonnées des sommets ainsi que les arêtes avec leur poids}
+\title{Construction d\'un graph sur un carr\é de c\ôté 1}
+\description{graph_square est une fonction qui renvoie les coordonnées des sommets ainsi que les ar\êtes avec leur poids}
 \usage{
 graph_square(x)
 }
