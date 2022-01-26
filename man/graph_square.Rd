@@ -1,14 +1,14 @@
 \name{graph_square}
 \alias{graph_square}
 \title{Construction of a graph on a square [0,1] * [0,1]}
-\description{graph_square returns the coordinates of the vertices between 2D between 0 and 1 as well as the edges with their weight}
+\description{graph_square returns the coordinates of the vertices 2D between 0 and 1 as well as the edges with their weight}
 \usage{
 graph_square(n,nbPaths)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
   \item{n}{
-%%     ~~number of vertices~~
+     \number of vertices
 }
   \item{nbPaths}{
 %%     ~~Describe \code{number of possible paths from the start to the end} here~~
