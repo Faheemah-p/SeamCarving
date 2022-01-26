@@ -21,7 +21,7 @@ graph(x)
 %%  ~Describe the value returned
 %%  If it is a LIST, use
 %%  \item{n }{n est le nombre de sommets}
-%%  \item{nbPaths }{nbPaths est le nombre de chemin requis}
+%%  \item{nbPaths }{nbPaths est le nombre de chemin requis/possible pour passer du sommet d'arrivé au sommet de départ}
 %% ...
 }
 \references{
