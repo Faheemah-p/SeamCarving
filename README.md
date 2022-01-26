@@ -20,11 +20,11 @@ Quand on livre un colis, il y a souvent plusieurs moyens de transport à notre d
 **Finance :**  On a vu les cycles améliorants comme un concept péjoratif, cependant ils sont parfois très utiles comme en finance, où trouver ce genre de cycle peut être avantageux et permet de gagner de l'argent facilement. Si l'on imagine un graphe pondéré de multiples transactions bancaires (par exemple lorsque vous convertissez des euros en dollars), si on arrive à trouver un cycle améliorant dans ce graphe, cela signifie qu'on peut convertir en "boucle" et gagner encore plus d'argent à chaque tour.
 
 ## Problématique et objectifs
-L'objectif de ce projet est de créer un package permettant de déterminer le chemin le plus court entre deux noeuds grâce aux deux algorithmes **Bellman Ford** et **Dijkstra** plus précisemment avec les points de carré [0,1] x [0,1] on va étudier le nombre de points à traverser et la longueur du chemin (à comparer avec racine de √2) en fonction du nombre de points et d'arrêtes, en suite on enchaînera avec une application sur le problème de **réduction** d'image avec ces algorithmes. 
+L'objectif de ce projet est de créer un package permettant de déterminer le chemin le plus court entre deux noeuds grâce aux deux algorithmes **Bellman-Ford** et **Dijkstra** plus précisemment avec les points de carré [0,1] x [0,1] on va étudier le nombre de points à traverser et la longueur du chemin (à comparer avec racine de √2) en fonction du nombre de points et d'arrêtes, en suite on enchaînera avec une application sur le problème de **réduction** d'image avec ces algorithmes. 
 
  Il existe différentes manières de répondre à cette question, et la réponse varie souvent en fonction du graphe donné en entrée de notre algorithme (pondéré positivement, négativement, etc.). Savoir reconnaître un problème de plus court chemin est donc important, et utiliser le bon algorithme l'est encore plus.
 
-## II- L'algorithme de Bellmanford: Solution naïve 
+## II- L'algorithme de Bellman-Ford: Solution naïve 
 Cet algorithme permet de calculer des plus courts chemins depuis un sommet source donné dans un graphe **orienté pondéré**(c'est à dire que les arêtes ont des poids entier ou flottant positif.
 
 ## Description 
