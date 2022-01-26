@@ -1,8 +1,8 @@
 \name{graph_image}
 \alias{graph_image}
 %- Also NEED an '\alias' for EACH other topic documented here.
-\title{Construction du graphe correspondant à une image}
-\description{
+\title{Construction of the graph corresponding to an image}
+\description{graph_image returns length, width and intensity of an image where intensity corresponds to the three main colors: red, green and blue.
 %%  ~~ A concise (1-5 lines) description of what the function does. ~~
 }
 \usage{
@@ -10,7 +10,7 @@ graph_image(x)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
-  \item{x}{
+  \item{graph}{
 %%     ~~Describe \code{x} here~~
 }
 }
