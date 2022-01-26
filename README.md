@@ -24,7 +24,7 @@ Cette fonction renvoie le graphe associé à une image donné, en prenant comme 
 - `remove_seam`
 Cette fonction prend en entrée une image et un algorithme choisit (Bellman-Ford ou Dijkstra), et nous renvoie l'image après avoir enlevé le chemin de pixels le plus court, c'est-à-dire le chemin de moindre énergie, déterminé à partir de l'algorithme. 
 - `seam_carving`
-Cette fonction redimentionne l'image par la méthode de seam carving en réduisant le nombre de pixels par un nombre entré en paremètre avec l'image. Elle va faire tourner la fonction 'remove_seam' autant de fois que le nombre de pixels à enlever en largeur.
+Cette fonction redimentionne l'image par la méthode de seam carving en réduisant le nombre de pixels par un nombre entré en paramètre avec l'image. Elle va faire tourner la fonction 'remove_seam' autant de fois que le nombre de pixels à enlever en largeur.
 
 Pour ce package, nous avons choisit d'appliquer le seam carving uniquement pour réduire l'image en largeur, c'est-à-dire qu'on ne considère pas le redimensionnement en hauteur et l'agrandissement de l'image. De plus, pour le calcul de l'énergie, nous avons choisit de regarder la norme des intensités des pixels/sommets adjacents que nous considérons comme poids des arcs.
 
