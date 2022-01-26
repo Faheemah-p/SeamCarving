@@ -2,15 +2,15 @@
 \alias{Dijkstra}
 %- Also NEED an '\alias' for EACH other topic documented here.
 \title{Dijkstra algorithm}
-\description{Finding the shortest path between nodes in a graph. It returns the distance and the vertices of the shortest path.
+\description{Finding the shortest path between nodes in a graph. This algorithm returns the distance and the vertices of the shortest path. It chooses the unvisited vertex with the smallest distance, calculates the distance through it to each unvisited neighbor, and updates the distance to the neighbor if it is smaller.
 %%  ~~ A concise (1-5 lines) description of what the function does. ~~
 }
 \usage{
-Dijkstra(x)
+Dijkstra(graph)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
-  \item{x}{
+  \item{graph}{
 %%     ~~Describe \code{x} here~~
 }
 }
