@@ -2,16 +2,16 @@
 \alias{BellmanFord}
 %- Also NEED an '\alias' for EACH other topic documented here.
 \title{Algorithme Bellman Ford}
-\description{
+\description{ Finding the shortest path after n-1 iterations where n is the number of vertices. It returns the distance and the vertices of the shortest path.
 %%  ~~ A concise (1-5 lines) description of what the function does. ~~
 }
 \usage{
-BellmanFord(x)
+BellmanFord(graph)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
-  \item{x}{
-%%     ~~Describe \code{x} here~~
+  \item{graph}{ returns the coordinates of the vertices 2D between 0 and 1 as well as edges with their weight
+
 }
 }
 \details{
@@ -40,15 +40,8 @@ BellmanFord(x)
 %% ~~objects to See Also as \code{\link{help}}, ~~~
 }
 \examples{
-##---- Should be DIRECTLY executable !! ----
-##-- ==>  Define data, use random,
-##--	or do  help(data=index)  for the standard data sets.
-
-## The function is currently defined as
-function (x)
-{
-  }
-}
+## graph=graph_square(12,4)
+   BellmanFord(graph)}
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory (show via RShowDoc("KEYWORDS")):
 % \keyword{ ~kwd1 }
