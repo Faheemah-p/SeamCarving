@@ -3,7 +3,7 @@
 %- Also NEED an '\alias' for EACH other topic documented here.
 \title{Simulation square
 }
-\description{
+\description{returns the shortest distance and plot it in a graph 
 %%  ~~ A concise (1-5 lines) description of what the function does. ~~
 }
 \usage{
@@ -11,8 +11,11 @@ simulation_square(graph,algorithm)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
-  \item{x}{
-%%     ~~Describe \code{x} here~~
+  \item{graph}{ 
+    
+}
+  \item{algorithm}{ Dijkstra or BellmanFord
+    
 }
 }
 \details{
@@ -41,14 +44,8 @@ simulation_square(graph,algorithm)
 %% ~~objects to See Also as \code{\link{help}}, ~~~
 }
 \examples{
-##---- Should be DIRECTLY executable !! ----
-##-- ==>  Define data, use random,
-##--	or do  help(data=index)  for the standard data sets.
-
-## The function is currently defined as
-function (x)
-{
-  }
+res <- graph(n,nbPaths)
+simulation_square(res,Dijkstra(res)$path)
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory (show via RShowDoc("KEYWORDS")):
