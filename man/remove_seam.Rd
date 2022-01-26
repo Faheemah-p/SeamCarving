@@ -1,17 +1,20 @@
 \name{remove_seam}
 \alias{remove_seam}
 %- Also NEED an '\alias' for EACH other topic documented here.
-\title{enlever un chemin le plus court}
-\description{
+\title{Remove the shortest image}
+\description{Return the image after removing the shortest path. We choose between Dijkstra or Bellman Ford to remove the shortest path.
 %%  ~~ A concise (1-5 lines) description of what the function does. ~~
 }
 \usage{
-remove_seam(x)
+remove_seam(image,algorithm)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
-  \item{x}{
-%%     ~~Describe \code{x} here~~
+  \item{image}{ a given image
+
+}
+  \item{algorithm}{ Dijkstra ou BellmanFord
+
 }
 }
 \details{
@@ -40,14 +43,7 @@ remove_seam(x)
 %% ~~objects to See Also as \code{\link{help}}, ~~~
 }
 \examples{
-##---- Should be DIRECTLY executable !! ----
-##-- ==>  Define data, use random,
-##--	or do  help(data=index)  for the standard data sets.
-
-## The function is currently defined as
-function (x)
-{
-  }
+remove_seam(image,Dijkstra)
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory (show via RShowDoc("KEYWORDS")):
