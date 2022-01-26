@@ -1,7 +1,7 @@
 \name{BellmanFord}
 \alias{BellmanFord}
 %- Also NEED an '\alias' for EACH other topic documented here.
-\title{Algorithme Bellman Ford}
+\title{Bellman Ford algorithm}
 \description{ Finding the shortest path after n-1 iterations where n is the number of vertices. It returns the distance and the vertices of the shortest path.
 %%  ~~ A concise (1-5 lines) description of what the function does. ~~
 }
