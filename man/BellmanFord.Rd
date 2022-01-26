@@ -10,7 +10,7 @@ BellmanFord(graph)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
-  \item{graph}{ returns the coordinates of the vertices 2D between 0 and 1 as well as edges with their weight
+  \item{graph}{ represents the coordinates of the vertices 2D between 0 and 1 as well as edges with their weight
 
 }
 }
