@@ -1,6 +1,9 @@
 \name{graph_square}
 \alias{graph_square}
-\title{Construction d'un graph sur un carré de côté 1}
+\title{Construction d'un graphe sur un carré avec des points de carré [0,1] x [0,1]
+
+
+1}
 \description{graph est une fonction qui renvoie les coordonnées des sommets ainsi que les arêtes avec leur poids}
 \usage{
 graph(x)
@@ -17,8 +20,8 @@ graph(x)
 \value{
 %%  ~Describe the value returned
 %%  If it is a LIST, use
-%%  \item{comp1 }{Description of 'comp1'}
-%%  \item{comp2 }{Description of 'comp2'}
+%%  \item{n }{n est le nombre de sommets}
+%%  \item{nbPaths }{nbPaths est le nombre de chemin requis}
 %% ...
 }
 \references{
@@ -40,7 +43,8 @@ graph(x)
 ##---- Should be DIRECTLY executable !! ----
 ##-- ==>  Define data, use random,
 ##--	or do  help(data=index)  for the standard data sets.
-
+graph(10,2)
+Cette fonction retourne le sommet d'arrivé, le sommet de départ et la distance euclidienne entre ces deux sommets
 ## The function is currently defined as
 function (x)
 {
