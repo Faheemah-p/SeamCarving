@@ -1,7 +1,7 @@
 \name{graph_square}
 \alias{graph_square}
-\title{Construction of a graph on a square [0,1] x [0,1]}
-\description{graph_square is a function that returns the coordinates of the vertices as well as the edges with their weight}
+\title{Construction of a graph on a square [0,1] * [0,1]}
+\description{graph_square returns the coordinates of the vertices as well as the edges with their weight}
 \usage{
 graph_square(n,nbPath)
 }
@@ -17,8 +17,8 @@ graph_square(n,nbPath)
 \value{
 %%  ~Describe the value returned
 %%  If it is a LIST, use
-%%  \item{comp1 }{Description of 'comp1'}
-%%  \item{comp2 }{Description of 'comp2'}
+%%  \item{n }{Description of 'number of vertices'}
+%%  \item{nbPath }{Description of 'number of possible paths from the start to the end'}
 %% ...
 }
 \references{
