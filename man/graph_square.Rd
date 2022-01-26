@@ -1,17 +1,14 @@
 \name{graph_square}
 \alias{graph_square}
-\title{Construction d'un graphe sur un carré avec des points de carré [0,1] x [0,1]}
+\title{Construction d'un graph sur un carré de côté 1}
 \description{graph est une fonction qui renvoie les coordonnées des sommets ainsi que les arêtes avec leur poids}
-\usage{ C'est pour déterminer la distance entre deux arêtes }
-Pour 
+\usage{
+graph(x)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
-  \item{n}{
-%%     ~~Describe \code{n est le nombre de sommets} here~~
-}
-  \item{nbPaths}{
-%%     ~~Describe \code{nbPaths est le nombre de chemin requis/possible pour passer du sommet d'arrivé au sommet de départ} here~~
+  \item{x}{
+%%     ~~Describe \code{x} here~~
 }
 }
 \details{
@@ -20,9 +17,8 @@ Pour
 \value{
 %%  ~Describe the value returned
 %%  If it is a LIST, use
-%%  \item{x }{Le sommet de départ}
-%%  \item{y }{Le sommet d\'arrivé}
-    \item{edge}{Le poids (la distance)}
+%%  \item{comp1 }{Description of 'comp1'}
+%%  \item{comp2 }{Description of 'comp2'}
 %% ...
 }
 \references{
@@ -44,10 +40,9 @@ Pour
 ##---- Should be DIRECTLY executable !! ----
 ##-- ==>  Define data, use random,
 ##--	or do  help(data=index)  for the standard data sets.
-graph(10,2)
-Cette fonction retourne le sommet d'arrivé, le sommet de départ et la distance euclidienne entre ces deux sommets
+
 ## The function is currently defined as
-function (10,2)
+function (x)
 {
   }
 }
