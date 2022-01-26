@@ -8,7 +8,7 @@
 
 En particulier, ce package permet de déterminer le chemin le plus court sur un graphe compris dans le ***carré unité***, qui a pour sommet de départ le sommet de coordonnées (0,0) et pour sommet d'arrivé le sommet de coordonnées (1,1).
 
-Un exemple d'application de ces algorithmes est le ***seam carving***. C'est un algorithme de redimensionnement d'image développé par Shai AVIDAN et Ariel SHAMIR, qui redimensionne l'image par suppression de chamins de pixels dits de moindre énergie.
+Un exemple d'application de ces algorithmes est le ***seam carving***. C'est un algorithme de redimensionnement d'image développé par Shai AVIDAN et Ariel SHAMIR, qui redimensionne l'image par suppression de chemins de pixels dits de moindre énergie.
 
 Ce package comporte plusieurs fonctions:
 - `BellmanFord` 
