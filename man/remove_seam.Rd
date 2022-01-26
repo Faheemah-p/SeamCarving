@@ -2,7 +2,7 @@
 \alias{remove_seam}
 %- Also NEED an '\alias' for EACH other topic documented here.
 \title{Remove the shortest image}
-\description{Return the image after removing the shortest path. We choose between Dijkstra or Bellman Ford to remove the shortest path.
+\description{Return the image after removing the shortest path. We apply Dijkstra or Bellman Ford algorithms to find the shortest path and after that we remove it.
 %%  ~~ A concise (1-5 lines) description of what the function does. ~~
 }
 \usage{
