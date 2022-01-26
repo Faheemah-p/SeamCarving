@@ -11,7 +11,7 @@ simulation_square(graph,algorithm)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
-  \item{graph}{ returns the shortest path and the distance
+  \item{graph}{ It returns the distance and the vertices of the shortest path.
     
 }
   \item{algorithm}{ Dijkstra or BellmanFord
