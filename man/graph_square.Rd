@@ -21,7 +21,7 @@ Pour
 %%  ~Describe the value returned
 %%  If it is a LIST, use
 %%  \item{x }{Le sommet de départ}
-%%  \item{y }{Le sommet d'arrivé}
+%%  \item{y }{Le sommet d\'arrivé}
     \item{edge}{Le poids (la distance)}
 %% ...
 }
