@@ -1,14 +1,14 @@
 \name{graph_square}
 \alias{graph_square}
 \title{Construction of a graph on a square [0,1] x [0,1]}
-\description{graph_square est une fonction qui renvoie les coordonnées des sommets ainsi que les ar\êtes avec leur poids}
+\description{graph_square is a function that returns the coordinates of the vertices as well as the edges with their weight}
 \usage{
-graph_square(x)
+graph_square(n,nbPath)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
-  \item{x}{
-%%     ~~Describe \code{x} here~~
+  \item{graph_square}{
+%%     ~~Describe \code{n=15,nbPath=3} here~~
 }
 }
 \details{
