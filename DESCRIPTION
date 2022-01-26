@@ -5,9 +5,7 @@ Version: 1.0
 Date: 2022-01-26
 Author: Chaïma Boughanmi, Faheemah Padavia, Pascale Zouein
 Maintainer: Your Name <your@email.com>
-Description: ShortPath is an R package that allows determining the shortest path of a graph from a source vertex using two algorithms: Bellman-Ford algorithm and Dijkstra algorithm.
-In particular, this package makes it possible to determine the shortest path on a graph included in a square [0,0]*[1,1], which has as its starting vertex with coordinates (0,0) and as its arrival vertex with coordinates (1,1).
-An example of application of these algorithms is seam carving. It is an image resizing algorithm developed by Shai AVIDAN and Ariel SHAMIR, which resizes the image by removing the least energy pixel paths.
+Description: ShortPath is an R package that allows determining the shortest path of a graph from a source vertex using two algorithms: Bellman-Ford algorithm and Dijkstra algorithm. In particular, this package makes it possible to determine the shortest path on a graph included in a square [0,0]*[1,1], which has as its starting vertex with coordinates (0,0) and as its arrival vertex with coordinates (1,1). An example of application of these algorithms is seam carving. It is an image resizing algorithm developed by Shai AVIDAN and Ariel SHAMIR, which resizes the image by removing the least energy pixel paths.
 License: GPL (>= 2)
 Imports: Rcpp (>= 1.0.8)
 LinkingTo: Rcpp
