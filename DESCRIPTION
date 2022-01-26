@@ -1,9 +1,9 @@
 Package: ShortPath
 Type: Package
-Title: What the Package Does in One 'Title Case' Line
+Title: Finding the shortest path of a graph
 Version: 1.0
 Date: 2022-01-26
-Author: Your Name
+Author: Chaïma Boughanmi, Faheemah Padavia, Pascale Zouein
 Maintainer: Your Name <your@email.com>
 Description: ShortPath is an R package that allows determining the shortest path of a graph from a source vertex using two algorithms: Bellman-Ford algorithm and Dijkstra algorithm.
 In particular, this package makes it possible to determine the shortest path on a graph included in a square [0,0]*[1,1], which has as its starting vertex with coordinates (0,0) and as its arrival vertex with coordinates (1,1).
