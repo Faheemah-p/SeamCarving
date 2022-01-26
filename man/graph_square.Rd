@@ -1,6 +1,6 @@
 \name{graph_square}
 \alias{graph_square}
-\title{Construction d\'un graph sur un carr\é de c\ôté 1}
+\title{Construction of a graph on a square [0,1] x [0,1]}
 \description{graph_square est une fonction qui renvoie les coordonnées des sommets ainsi que les ar\êtes avec leur poids}
 \usage{
 graph_square(x)
