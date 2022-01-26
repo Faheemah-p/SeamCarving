@@ -11,7 +11,7 @@ simulation_square(graph,algorithm)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
-  \item{graph}{ 
+  \item{graph}{ returns the shortest path and the distance
     
 }
   \item{algorithm}{ Dijkstra or BellmanFord
@@ -44,8 +44,9 @@ simulation_square(graph,algorithm)
 %% ~~objects to See Also as \code{\link{help}}, ~~~
 }
 \examples{
-res <- graph(n,nbPaths)
-simulation_square(res,Dijkstra(res)$path)
+graph <- graph(n,nbPaths)
+res <- Dijkstra(graph)
+simulation_square(res,res$path)
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory (show via RShowDoc("KEYWORDS")):
