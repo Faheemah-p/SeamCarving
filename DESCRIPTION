@@ -1,4 +1,4 @@
-Package: SeamCarving
+Package: ShortPath
 Type: Package
 Title: Projet 1 - Algorithme Dijkstra et Seam Carving
 Version: 0.1.0
