@@ -1,9 +1,6 @@
 \name{graph_square}
 \alias{graph_square}
-\title{Construction d'un graphe sur un carré avec des points de carré [0,1] x [0,1]
-
-
-1}
+\title{Construction d'un graphe sur un carré avec des points de carré [0,1] x [0,1]}
 \description{graph est une fonction qui renvoie les coordonnées des sommets ainsi que les arêtes avec leur poids}
 \usage{
 graph(x)
