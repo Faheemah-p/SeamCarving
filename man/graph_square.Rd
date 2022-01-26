@@ -41,9 +41,9 @@ graph_square(n,nbPaths)
 %% ~~objects to See Also as \code{\link{help}}, ~~~
 }
 \examples{
-##graph_square(n=100,nbPaths=20)
-##graph_square(n=1000,nbPaths=50) 
-##graph_square(20,5)
+graph_square(n=100,nbPaths=20)
+graph_square(n=1000,nbPaths=50) 
+graph_square(20,5)
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory (show via RShowDoc("KEYWORDS")):
