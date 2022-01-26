@@ -10,7 +10,7 @@ Dijkstra(graph)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
-  \item{graph}{
+  \item{graph}{represents the coordinates of the vertices 2D between 0 and 1 as well as edges with their weight
 %%     ~~Describe \code{x} here~~
 }
 }
@@ -40,14 +40,7 @@ Dijkstra(graph)
 %% ~~objects to See Also as \code{\link{help}}, ~~~
 }
 \examples{
-##---- Should be DIRECTLY executable !! ----
-##-- ==>  Define data, use random,
-##--	or do  help(data=index)  for the standard data sets.
-
-## The function is currently defined as
-function (x)
-{
-  }
+## graph=
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory (show via RShowDoc("KEYWORDS")):
