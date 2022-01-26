@@ -7,18 +7,22 @@ graph_square(n,nbPath)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
-  \item{graph_square}{
-%%     ~~Describe \code{n=15,nbPath=3} here~~
+  \item{n}{
+%%     ~~Describe \code{number of vertices} here~~
+}
+  \item{nbPaths}{
+%%     ~~Describe \code{number of possible paths from the start to the end} here~~
 }
 }
 \details{
 %%  ~~ If necessary, more details than the description above ~~
 }
 \value{
+  
 %%  ~Describe the value returned
 %%  If it is a LIST, use
 %%  \item{n }{Description of 'number of vertices'}
-%%  \item{nbPath }{Description of 'number of possible paths from the start to the end'}
+%%  \item{nbPaths }{Description of 'number of possible paths from the start to the end'}
 %% ...
 }
 \references{
@@ -37,14 +41,8 @@ graph_square(n,nbPath)
 %% ~~objects to See Also as \code{\link{help}}, ~~~
 }
 \examples{
-##---- Should be DIRECTLY executable !! ----
-##-- ==>  Define data, use random,
-##--	or do  help(data=index)  for the standard data sets.
-
-## The function is currently defined as
-function (x)
-{
-  }
+##graph_square(n=100,nbPaths=20)
+##graph_square(n=1000,nbPaths=50)  
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory (show via RShowDoc("KEYWORDS")):
