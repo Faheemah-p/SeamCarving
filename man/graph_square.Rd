@@ -7,10 +7,10 @@ graph_square(n,nbPaths)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
-  \item{n}{
+  \item{n}{number of vertices
      \number of vertices
 }
-  \item{nbPaths}{
+  \item{nbPaths}{number of possible paths from the start to the end
 %%     ~~Describe \code{number of possible paths from the start to the end} here~~
 }
 }
