@@ -40,8 +40,8 @@ BellmanFord(graph)
 %% ~~objects to See Also as \code{\link{help}}, ~~~
 }
 \examples{
-## graph=graph_square(12,4)
-   BellmanFord(graph)}
+graph=graph_square(12,4)
+BellmanFord(graph)}
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory (show via RShowDoc("KEYWORDS")):
 % \keyword{ ~kwd1 }
