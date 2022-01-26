@@ -8,7 +8,7 @@ graph_square(n,nbPaths)
 %- maybe also 'usage' for other objects documented here.
 \arguments{
   \item{n}{
-%%     ~~Describe \code{number of vertices} here~~
+%%     ~~number of vertices~~
 }
   \item{nbPaths}{
 %%     ~~Describe \code{number of possible paths from the start to the end} here~~
@@ -42,7 +42,8 @@ graph_square(n,nbPaths)
 }
 \examples{
 ##graph_square(n=100,nbPaths=20)
-##graph_square(n=1000,nbPaths=50)  
+##graph_square(n=1000,nbPaths=50) 
+##graph_square(20,5)
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory (show via RShowDoc("KEYWORDS")):
