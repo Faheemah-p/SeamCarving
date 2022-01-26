@@ -2,16 +2,23 @@
 \alias{seam_carving}
 %- Also NEED an '\alias' for EACH other topic documented here.
 \title{Seam Carving}
-\description{
+\description{A function that returns an image after resizing
 %%  ~~ A concise (1-5 lines) description of what the function does. ~~
 }
 \usage{
-seam_carving(x)
+seam_carving(image, algorithm, number)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
-  \item{x}{
-%%     ~~Describe \code{x} here~~
+  \item{image}{ a given image
+
+}
+  \item{algorithm}{ Dijkstra or BellmanFord
+
+}
+  }
+  \item{number}{ Remove a number of paths
+
 }
 }
 \details{
@@ -40,14 +47,8 @@ seam_carving(x)
 %% ~~objects to See Also as \code{\link{help}}, ~~~
 }
 \examples{
-##---- Should be DIRECTLY executable !! ----
-##-- ==>  Define data, use random,
-##--	or do  help(data=index)  for the standard data sets.
-
-## The function is currently defined as
-function (x)
-{
-  }
+   seam_carving(image, Dijkstra, 100)
+  In this function we use Dijkstra algorithm to remove the 100 shortest path 
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory (show via RShowDoc("KEYWORDS")):
