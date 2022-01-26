@@ -47,8 +47,9 @@ seam_carving(image, algorithm, number)
 %% ~~objects to See Also as \code{\link{help}}, ~~~
 }
 \examples{
-   seam_carving(image, Dijkstra, 100)
-  In this function we use Dijkstra algorithm to remove the 100 shortest path 
+ In this function we use Dijkstra algorithm to remove the 100 shortest path 
+ seam_carving(image, Dijkstra, 100)
+ 
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory (show via RShowDoc("KEYWORDS")):
