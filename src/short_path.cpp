@@ -89,7 +89,7 @@ int findMinVertex(NumericVector distance ,LogicalVector visited, int n){
 
 // Function qui permet de trcaer le chemin
 // de la source j en utilisant
-// le tableau parent
+//  parent
 // 
 void printPath(NumericVector parent, int j)
 {
