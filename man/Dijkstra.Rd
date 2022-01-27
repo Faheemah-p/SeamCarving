@@ -13,7 +13,6 @@ Dijkstra(graph)
   \item{graph}{represents the coordinates of the vertices 2D between 0 and 1 as well as edges with their weight
 %%     ~~Describe \code{x} here~~
 }
-}
 \details{
 %%  ~~ If necessary, more details than the description above ~~
 }
