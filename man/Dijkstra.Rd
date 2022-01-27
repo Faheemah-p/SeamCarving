@@ -13,6 +13,7 @@ Dijkstra(graph)
   \item{graph}{represents the coordinates of the vertices 2D between 0 and 1 as well as edges with their weight
 %%     ~~Describe \code{x} here~~
 }
+  }
 \details{
 %%  ~~ If necessary, more details than the description above ~~
 }
@@ -40,7 +41,7 @@ Dijkstra(graph)
 }
 \examples{
 graph=graph_square(12,4)
-Dijkstra(graph)}
+Dijkstra(graph)
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory (show via RShowDoc("KEYWORDS")):
