@@ -16,7 +16,7 @@ seam_carving(image, algorithm, number)
   \item{algorithm}{ Dijkstra or BellmanFord
 
 }
-  }
+  
   \item{number}{ Remove a number of paths
 
 }
