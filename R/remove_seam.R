@@ -1,5 +1,5 @@
 remove_seam <- function(image,algo){
-  g_img = graphe_image(image)
+  g_img = graph_image(image)
   seam = algo(g_img)$path
   seam = seam[2:(length(seam)-1)]
   n = dim(image)[1]
